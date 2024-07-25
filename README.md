@@ -9,15 +9,11 @@ This Flask-based web application predicts the likelihood of heart disease based 
 
 ### Index Page
 
-<img src="screenshots/index1.jpg" alt="Index Page 1" width="600" height="450">
+<img src="screenshots/index1.jpg" alt="Index Page 1" width="600" height="450" >
 <img src="screenshots/index2.jpg" alt="Index Page 2" width="600" height="450">
 
 
 
-### Result Page
-
-<img src="screenshots/result1.jpg" alt="result Page 1" width="600" height="450">
-<img src="screenshots/result2.jpg" alt="result Page 2" width="600" height="450">
 
 ## Models Used
 
@@ -28,6 +24,12 @@ The application utilizes the following machine learning models:
 3. **Decision Tree**: A model that uses a tree-like graph of decisions and their possible consequences, including chance event outcomes.
 4. **SVC (Support Vector Classifier)**: A classification method that finds the hyperplane that best divides a dataset into classes.
 5. **K-Nearest Neighbors (KNN)**: A classification algorithm that assigns the class of the majority of its nearest neighbors.
+
+### Result Page
+
+<img src="screenshots/result1.jpg" alt="result Page 1" width="600" height="450">
+<img src="screenshots/result2.jpg" alt="result Page 2" width="600" height="450">
+
 
 ## Instructions
 
