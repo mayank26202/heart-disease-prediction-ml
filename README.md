@@ -9,17 +9,15 @@ This Flask-based web application predicts the likelihood of heart disease based 
 
 ### Index Page
 
-![Index Page](screenshots/index1.jpg)
-*Size: 800x600 pixels*
-![Index Page](screenshots/index2.jpg)
-*Size: 800x600 pixels*
+<img src="screenshots/index1.jpg" alt="Index Page 1" width="600" height="450">
+<img src="screenshots/index2.jpg" alt="Index Page 2" width="600" height="450">
+
+
 
 ### Result Page
 
-![Result Page](screenshots/result1.jpg)
-*Size: 800x600 pixels*
-![Result Page](screenshots/result2.jpg)
-*Size: 800x600 pixels*
+<img src="screenshots/result1.jpg" alt="result Page 1" width="600" height="450">
+<img src="screenshots/result2.jpg" alt="result Page 2" width="600" height="450">
 
 ## Models Used
 
@@ -41,3 +39,44 @@ The application utilizes the following machine learning models:
 
    ```bash
    conda create --name myenv python=3.8
+
+2. **Activate Virtual Environment**
+
+    ```bash
+    conda activate --name myenv
+
+3. **Install requirements.txt**
+
+    Ensure you are in the project directory and install the required packages using the `requirements.txt` file:
+
+    ```bash
+    pip install -r requirements.txt
+
+4. **Start the Application**
+
+    Run the Flask application with:
+
+    ```bash
+    python app.py
+
+    The application will be available at `http://127.0.0.1:5000/`
+
+## File Structure
+
+    ```bash
+    /project-directory
+    /static
+        /img
+            background.jpg
+        styles.css
+    /templates
+        index.html
+        result.html
+    app.py
+    models.pkl
+    requirements.txt
+    README.md
+    /screenshots
+        index.png
+        result.png
+
