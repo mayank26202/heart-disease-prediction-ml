@@ -63,7 +63,7 @@ The application utilizes the following machine learning models:
 
 ## File Structure
 
-    ```bash
+    
     /project-directory
     /static
         /img
