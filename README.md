@@ -3,7 +3,7 @@
 
 ## Description
 
-This Flask-based web application predicts the likelihood of heart disease based on user input. It uses multiple machine learning models to provide predictions and evaluates each model’s performance. The app includes a user-friendly interface for input and displays the prediction results along with model-specific details.
+This Flask-based web application predicts the likelihood of heart disease based on user input. It uses multiple machine learning models to provide predictions and evaluates each model’s performance. The app includes a user-friendly interface for input and displays the prediction results along with model-specific details.Using machine learning to prediction chance off heart disease.
 
 ## Screenshots
 
