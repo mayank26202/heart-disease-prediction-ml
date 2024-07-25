@@ -59,7 +59,7 @@ The application utilizes the following machine learning models:
     ```bash
     python app.py
 
-    The application will be available at `http://127.0.0.1:5000/`
+## The application will be available at 'http://127.0.0.1:5000/'
 
 ## File Structure
 
