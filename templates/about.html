@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/static/img/background3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>About Us</h1>
+    <p>We provide heart disease prediction services using advanced machine learning algorithms.</p>
+    <strong>by Mayank</strong>
+    <a href="https://github.com/mayankksingh26">GITHUB</a>
+    <a href="{{ url_for('index') }}">Home</a>
+</body>
+
+</html>
