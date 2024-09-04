@@ -62,6 +62,7 @@ The application utilizes the following machine learning models:
     python app.py
 
 ## The application will be available at 'http://127.0.0.1:5000/'
+## Web application live link at 'https://heart-disease-prediction-ml.onrender.com'
 
 ## File Structure
 
